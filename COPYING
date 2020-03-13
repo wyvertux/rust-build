@@ -1,0 +1,24 @@
+I believe since the repository contains just the build files and patches,
+the whole repository is ineliglible for copyright. However, since
+Wyvertux does redistribute binaries, we've included Apache 2.0 license
+and the MIT (Expat) copyright notice included in rustc verbatim. See
+LICENSE-APACHE and LICENSE-MIT for the terms.
+
+However, in case it is eligible for copyright. The notice below apply.
+Note that the notice below doesn't apply to the patch.
+
+-----------------------------------
+
+Copyright (c) 2020 Muhammad Herdiansyah
+
+Permission to use, copy, modify, and distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.

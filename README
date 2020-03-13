@@ -1,0 +1,11 @@
+RUST-BUILD
+==========
+
+This repository contains build files and patches needed to get Rust
+working in LLVM. A git tag (and a GitHub "release") will be a central
+part of this repository to contain a Rust built with pure-LLVM toolchain
+(in this case, Wyvertux and Wyverkiss).
+
+NOTE:
+This is built under musl-libc environment. glibc/uclibc/dietlibc may
+need adjustments.
