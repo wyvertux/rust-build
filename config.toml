@@ -8,7 +8,6 @@ submodules = false
 python = "python3"
 locked-deps = true
 vendor = true
-cargo-native-static = true
 
 [install]
 prefix = "/usr"
