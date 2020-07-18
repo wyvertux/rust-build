@@ -1,17 +1,19 @@
 [build]
-build           = "x86_64-unknown-linux-musl"
-host            = [ "x86_64-unknown-linux-musl" ]
-target          = [ "x86_64-unknown-linux-musl" ]
-docs            = false
-compiler-docs   = false
-extended        = true
-submodules      = false
-python          = "python3"
-locked-deps     = true
-vendor          = true
-sanitizers      = false
-profiler        = false
-full-bootstrap  = false
+build               = "x86_64-unknown-linux-musl"
+host                = [ "x86_64-unknown-linux-musl" ]
+target              = [ "x86_64-unknown-linux-musl" ]
+docs                = false
+compiler-docs       = false
+extended            = true
+submodules          = false
+python              = "python3"
+locked-deps         = true
+vendor              = true
+sanitizers          = false
+profiler            = false
+full-bootstrap      = false
+# Caveat: you need GNU make for the config below.
+cargo-native-static = true
 
 [install]
 prefix = "/usr"
