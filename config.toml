@@ -26,7 +26,7 @@ debuginfo-level = 0
 backtrace       = false
 jemalloc        = false
 codegen-tests   = false
-llvm-libunwind  = true
+llvm-libunwind  = "system"
 
 [target.x86_64-unknown-linux-musl]
 llvm-config = "/usr/bin/llvm-config"
